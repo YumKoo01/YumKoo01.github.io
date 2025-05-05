@@ -1,0 +1,37 @@
+*{
+    font-family: cursive!important;
+}
+body{
+    height: 100vh;
+}
+.custom-image{
+    background-size: cover!important;
+    height: 250px;
+    width: 100%;
+}
+.images{
+    background-size:cover;
+    height:90px;
+    width:90px ;
+}
+.simular-characters{
+    background-size:cover!important;
+    height:200px;
+    width:100%;
+}
+.post{
+    background-size: cover!important;
+    height:650px;
+    width:400px;
+}
+.icons{
+    background-size: cover!important;
+    height:30px;
+    width:30px;
+}
+.function{
+    font-size:17px;
+}
+.function2{
+    font-size:13px;
+}
