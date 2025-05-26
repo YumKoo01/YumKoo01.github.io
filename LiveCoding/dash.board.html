@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="dash.board.css" />
+  </head>
+  <body>
+    <div class="row w-100 m-0 p-0 ">
+      <div
+        class="d-flex flex-column align-items-start border col-4 col-sm-4 col-md-3 col-lg-2 aside-bg"
+      >
+        <div class="d-flex align-items-top justify-content-top pt-2">
+          <div>
+            <img
+              class="bootstrap-icon rounded "
+              src="https://i.pinimg.com/736x/da/78/f5/da78f5e443c591f7415e70825bec5067.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <div class="d-flex align-items-top justify-content-top ps-1">
+              <div class="bootstrap-1">Asuka's</div>
+              <div class="simple px-1">Dashboard</div>
+            </div>
+            <div class="simple ps-1">Admin Template</div>
+          </div>
+        </div>
+        <div class="justify-content-center">
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"
+              />
+              <path
+                d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"
+              />
+            </svg>
+            <div class="px-2">Dashboard</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-file-earmark-break-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V9H2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM2 12h12v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zM.5 10a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1z"
+              />
+            </svg>
+            <div class="px-2">Fronts</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-grid-3x2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v8a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 11.5zM1.5 3a.5.5 0 0 0-.5.5V7h4V3zM5 8H1v3.5a.5.5 0 0 0 .5.5H5zm1 0v4h4V8zm4-1V3H6v4zm1 1v4h3.5a.5.5 0 0 0 .5-.5V8zm0-1h4V3.5a.5.5 0 0 0-.5-.5H11z"
+              />
+            </svg>
+            <div class="px-2">Tables</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bar-chart-steps"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0M2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            <div class="px-2">Charts</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-through-heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a22 22 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354zm2.893-4.894A20.4 20.4 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708z"
+              />
+            </svg>
+            <div class="px-2">Icons</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-layers-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882z"
+              />
+              <path
+                d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0z"
+              />
+            </svg>
+            <div class="px-2">UI Elements</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              />
+            </svg>
+            <div class="px-2">Authentication</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-file-earmark-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2z"
+              />
+            </svg>
+            <div class="px-2">Pages</div>
+          </div>
+          <div class="pt-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-people-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+              />
+            </svg>
+            <div class="px-2">Users</div>
+          </div>
+          <div class="pt-3 pb-3 d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-gear-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+            <div class="px-2">Settings</div>
+          </div>
+        </div>
+      </div>
+      <div class="border col-8 col-sm-8 col-md-9 col-lg-10  p-0">
+        <div class="row m-0 pt-5 ps-3">
+          <div class="col-12 col-sm-6 col-md-3 dashboard-first-row-p">
+            <div class="border d-flex flex-column cards">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="pt-3 ps-3 pb-3">
+                <img class="body-icon" src="../previeous/images/green-shopping-cart-10935.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center pe-5 py-2">
+                <div>
+                New Orders
+              </div>
+              <div class="pt-2">
+                6,267
+              </div>
+              </div>
+              </div>
+              <div class="border-top m-2 d-flex justify-content-start align-items-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                  <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                </svg>
+                <div class="body-text px-1">
+                  Updated every 30 minutes
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-first-row-p">
+            <div class="border d-flex flex-column cards">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="pt-3 ps-3 pb-3">
+                <img class="body-icon" src="../previeous/images/money.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center pe-5 py-2">
+                <div>
+                Revenue
+              </div>
+              <div class="pt-2">
+                $180,900.00
+              </div>
+              </div>
+              </div>
+              <div class="border-top m-2 d-flex justify-content-start align-items-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5"/>
+                </svg>
+                <div class="body-text px-1">
+                  In this current Month
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-first-row-p">
+            <div class="border d-flex flex-column cards">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="pt-3 ps-3 pb-3">
+                <img class="body-icon" src="../previeous/images/eye.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center pe-5 py-2">
+                <div>
+                Page views
+              </div>
+              <div class="pt-2">
+               28,210
+              </div>
+              </div>
+              </div>
+              <div class="border-top m-2 d-flex justify-content-start align-items-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584l.013-.012.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354-.012.012A6.97 6.97 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0"/>
+                </svg>
+                <div class="body-text px-1">
+                 In the last 24 Hour
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-first-row-p">
+            <div class="border d-flex flex-column cards">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="pt-3 ps-3 pb-3">
+                <img class="body-icon" src="../previeous/images/mail.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center pe-5 py-2">
+                <div>
+                Support Request
+              </div>
+              <div class="pt-2">
+                75
+              </div>
+              </div>
+              </div>
+              <div class="border-top m-2 d-flex justify-content-start align-items-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+                </svg>
+                <div class="body-text px-1">
+                  Active in the last 7 days
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+           <div class="row m-0 pt-3 ps-3">
+          <div class=" col-6 p-0">
+            <div class="dashboard-second-row-p  cards">
+              <div class="d-flex flex-column justify-content-between border px-2 pt-2 cards">
+                <div>
+                  <div>
+                    <h3>Top Visitors by Country </h3> 
+                   </div>
+                   <div class="pb-3">
+                     Your year long website traffic data
+                   </div>
+                </div>
+                <div>
+                  <div class=" border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      Country
+                    </div>
+                    <div>
+                      Unique Visitors
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/united-states.png" alt="">
+                      United State</div>
+                    <div>27,340</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/india.png" alt="">
+                      India</div>
+                    <div>21,280</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/japan.png" alt="">
+                      Japan</div>
+                    <div>
+                       18,210
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/united-kingdom.png" alt="">
+                      United Kingdom
+                    </div>
+                    <div>
+                      15,176
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/spain.png" alt="">
+                      Spain</div>
+                    <div>14,276</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/germany.png" alt="Germany">
+                        Germany
+                    </div>
+                    <div>13,176</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/brazil.png" alt="">
+                      Brazil</div>
+                    <div>12,176</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/indonesia.png" alt="">
+                      Indonesia</div>
+                    <div>11,886</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/philippines.png" alt="">
+                      Philippines</div>
+                    <div>11,509</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                      <div>
+                        <img class="flags" src="../previeous/images/singapole.png" alt="">
+                        Singapore</div>
+                      <div>1,799</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-6 p-0">
+            <div class="dashboard-second-row-p  cards">
+              <div class="d-flex flex-column justify-content-between border px-2 pt-2  cards">
+                <div>
+                  <div>
+                    <h3>Most Sales by Country</h3> 
+                   </div>
+                   <div class="pb-3">
+                     Your year long sales data
+                   </div>
+                </div>
+                <div>
+                  <div class=" border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      Country
+                    </div>
+                    <div>
+                      No. Sales
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/united-states.png" alt="">
+                      United State</div>
+                    <div>7,200</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/india.png" alt="">
+                      India</div>
+                    <div>6,190</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/japan.png" alt="">
+                      Japan</div>
+                    <div>
+                       4,790
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/united-kingdom.png" alt="">
+                      United Kingdom
+                    </div>
+                    <div>
+                      4,480
+                    </div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/spain.png" alt="">
+                      Spain</div>
+                    <div>4,276</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/germany.png" alt="Germany">
+                        Germany
+                    </div>
+                    <div>3,455</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/brazil.png" alt="">
+                      Brazil</div>
+                    <div>3,200</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/indonesia.png" alt="">
+                      Indonesia</div>
+                    <div>1,996</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                    <div>
+                      <img class="flags" src="../previeous/images/philippines.png" alt="">
+                      Philippines</div>
+                    <div>1,809</div>
+                  </div>
+                  <div class="border-top d-flex justify-content-between align-items-center py-2">
+                      <div>
+                        <img class="flags" src="../previeous/images/singapole.png" alt="">
+                        Singapore</div>
+                      <div>1,559</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 pt-3 ps-3 pb-3">
+          <div class="col-12 col-sm-6 col-md-3 dashboard-last-row-p">
+            <div class="border cards">
+              <div  class="d-flex flex-column justify-content-center align-items-center py-1">
+                <div>
+                  <img class="bottom-icon" src="../previeous/images/like.png" alt="">
+                </div>
+                <div>
+                  <h5>+21,900 </h3>
+                </div>
+                <div class="pb-2">
+                  FACEBOOK PAGE LIKES
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-last-row-p">
+            <div class="border cards">
+              <div  class="d-flex flex-column justify-content-center align-items-center py-1">
+                <div>
+                  <img class="bottom-icon py-1" src="../previeous/images/orange-share.png" alt="">
+                </div>
+                <div>
+                  <h5>+22,566 </h3>
+                </div>
+                <div class="pb-2">
+                  INSTAGRAM FOLLOWERS
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-last-row-p">
+            <div class="border cards">
+              <div  class="d-flex flex-column justify-content-center align-items-center py-1">
+                <div>
+                  <img class="bottom-icon" src="../previeous/images/email.png" alt="">
+                </div>
+                <div>
+                  <h5>+15,566 </h3>
+                </div>
+                <div class="pb-2">
+                  E-MAIL SUBSCRIBERS
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 dashboard-last-row-p">
+            <div class="border cards">
+              <div  class="d-flex flex-column justify-content-center align-items-center py-1">
+                <div>
+                  <img class="bottom-icon" src="../previeous/images/dollar.png" alt="">
+                </div>
+                <div>
+                  <h5>+98,601 </h3>
+                </div>
+                <div class="pb-2">
+                  TOTAL SALES
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <footer class="border-top">
+      <div class="row p-4 m-0">
+          <div class="col-md-2 mt-2">
+              <div>
+                  <h6><b> საჭირო ბმული</b></h6>
+              </div>
+              <div>
+                  ხშირად დასმული კითხვები
+              </div>
+              <div>
+                  წესები და პირობები
+              </div>
+          </div>
+          <div class="col-md-2 mt-2">
+              <div>
+                  <h6><b>ჩვენს შესახებ</b></h6>
+              </div>
+              <div>
+                  ჩვენი ამბავი
+              </div>
+          </div>
+          <div class="col-md-2 mt-2">
+              <div>
+                  <h6><b>კონტაქტი</b> </h6>
+              </div>
+              <div>
+                  557346367
+              </div>
+              <div>
+                  ohno;(@gmail.com
+              </div>
+          </div >
+          <div  class="col-md-2 mt-2">
+              <div>
+                  <h6><b>მხარდაჭერა</b> </h6>
+              </div>
+              <div class=" d-flex flex-column justify-content-between align-items-start p-2">
+                  <img  height="50" src="/previeous/images/visa.png" alt="">
+              </div>
+          </div>
+      </div>
+      <div class="w-100 border-top p-5" >
+          © 2024 Copyright.<br>
+          <a href="#"> Creator-Nina ;P</a>
+      </div>
+  </footer>
+  </body>
+</html>
