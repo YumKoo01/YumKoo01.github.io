@@ -1,0 +1,93 @@
+.search-button {
+  border-radius: 0px 20px 20px 0px;
+}
+.search {
+  width: 35vw !important;
+  border-radius: 20px 0px 0px 20px;
+}
+.profile {
+  width: 38px;
+  height: 34px;
+}
+.single {
+  height: 200px;
+}
+.user-date {
+  font-size: 12px;
+  color: #999;
+}
+.background {
+  background-image: url(https://i.pinimg.com/736x/82/d5/e3/82d5e3db7187506d690c4c5c6aece21a.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.liked-videos {
+  background-size: cover;
+  height: 100px;
+  width: 170px;
+  border-radius: 5px;
+}
+.number {
+  font-size: 12px;
+}
+.liked-image {
+  width: 170px;
+  height: 100px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+.option {
+  width: 40px;
+  height: 40px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option-1 {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px !important;
+}
+.button {
+  height: 40px;
+  width: 100%;
+}
+.liked-image-1 {
+  background-image: url("https://i.pinimg.com/736x/c7/01/8d/c7018d1bfaf2b0bd66eeb93a35370111.jpg");
+}
+.liked-image-2 {
+  background-image: url("https://i.pinimg.com/736x/16/6b/93/166b93bced279a16e3f3d8b3306d3d3c.jpg");
+}
+.liked-image-3 {
+  background-image: url("https://i.pinimg.com/736x/0e/0e/05/0e0e05d2ff556955f326a2442b3dda1c.jpg");
+}
+.liked-image-4 {
+  background-image: url("https://i.pinimg.com/736x/85/8f/6a/858f6a5a709106bb0847ecf10c20eeea.jpg");
+}
+.liked-image-5 {
+  background-image: url("https://i.pinimg.com/736x/87/8a/77/878a77be93bdd74f4f860f977831c37b.jpg");
+}
+.liked-image-6 {
+  background-image: url("https://i.pinimg.com/736x/9f/54/8d/9f548d10788500a879d6b722144184b0.jpg");
+}
+.liked-image-7 {
+  background-image: url("https://i.pinimg.com/736x/7b/cf/2c/7bcf2ca325423d43d728f4f866410d55.jpg");
+}
+.video-time {
+  background-color: #000000ba !important;
+  font-size: 12px;
+  padding: 2px;
+  bottom: 4px;
+  right: 2px;
+  width: 35px;
+}
