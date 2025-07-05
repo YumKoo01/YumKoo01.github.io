@@ -93,10 +93,17 @@
   text-align: center;
 }
 .watchingnow{
-  padding: 10px;
-  bottom:10px;
-  right: 8px;
-  height:200px;
-  width: 320px;
+  bottom:15px;
+  right: 15px;
+  height:240px;
+  width: 330px;
   border-radius: 10px;
+}
+.asuka{
+  background-image: url(https://i.pinimg.com/736x/1c/b8/53/1cb853f768e4c0f7a0955e5f4bd86327.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.line {
+  height: 4px;
 }
